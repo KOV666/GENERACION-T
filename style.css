@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #8C8381;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    background-color: #2D2B2C;
+    height: 150px;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    height: 150px;
+}
+
+#title{
+    font-size: 400%;
+    letter-spacing: 15px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 1%;
+    color: white;
+    text-shadow: 5px 0px 0px rgba(146, 117, 117, 0.945);
+}
+
+.logo{
+    float: right;
+    width: 100%;
+    text-align: right;
+    padding-right: 1%;
+}
+
+#perfil-logo{
+    color: white;
+    font-size: 300%;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.navbar{
+    background-color: #1E1E1F;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+#home{
+    margin-right: 15%;
+    cursor: pointer;
+    width: fit-content;
+}
+
+#crear{
+    margin-right: 15%;
+    cursor: pointer;
+    width: fit-content;
+}
+
+#leer{
+    cursor: pointer;
+    width: fit-content;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.publicacion{
+    color: white;
+    width: 60%;
+    border-radius: 15px;
+    background-color: #A49896;
+    border:1px solid #B8AEAC;
+    padding: 2%;
+    margin-top: 2%;
+    height: 100px;
+    overflow: hidden;
+}
+
+.sidebar{
+    right: 0;
+    color: white;
+    border-radius: 15px;
+    background-color: #A49896;
+    border:1px solid #B8AEAC;
+    padding: 2%;
+    position: absolute;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    display: none;
+}
+
+.sidebar ul li{
+    list-style: none;
+}
